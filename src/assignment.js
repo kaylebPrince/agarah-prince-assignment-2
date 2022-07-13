@@ -22,8 +22,7 @@ const array1 = [23,44,65,23,1,2,3,43,5,2,65,6,87,7,24,8,45,86,9,23,10];
     }
     return sum;
 }
-
-console.log("The sum of numbers in the array is " + sumOfNumbers(array1));
+assignment.sumOfNumbers = sumOfNumbers;
 
 
 
@@ -45,8 +44,7 @@ console.log("The sum of numbers in the array is " + sumOfNumbers(array1));
     }
     return count;
 }
-
-console.log(countEvenNumbers(array1) + " even numbers");
+assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
